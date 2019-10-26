@@ -28,8 +28,7 @@ end
 
 
 def list(songs)
-  p songs.each_with_index+1
-binding.pry
+
 end
 
 

@@ -23,7 +23,7 @@ end
 
 
 def play
-  puts
+  puts 
 end
 
 

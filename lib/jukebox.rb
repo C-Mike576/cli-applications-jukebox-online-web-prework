@@ -28,7 +28,7 @@ end
 
 
 def list(songs)
-  songs.each_with_index { |song, index| print song }
+  songs.each_with_index { |song, index| print song/n }
 end
 
 

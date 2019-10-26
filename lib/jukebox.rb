@@ -41,6 +41,7 @@ end
 
 def list(songs)
   songs.each_with_index { |song, index| puts "#{index+1}. #{song}"  }
+  run(songs)
 end
 
 
@@ -56,6 +57,7 @@ def run(songs)
     exit_jukebox
   elsif input == "help"
     help
+    run(songs)
   elsif input == "list"
     list(songs)
   elsif input == "play"

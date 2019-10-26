@@ -28,7 +28,7 @@ def play(songs)
   #binding.pry
   if songs.include?(input)
     puts "Playing #{input}"
-  elsif  songs.include?(songs[input.to_i-1]) unless input.to_i-1 == -1
+  elsif  songs.include?(songs[input.to_i-1]) unless (input.to_i-1) == -1
     puts "Playing #{songs[input.to_i-1]}"
   else
     puts "Invalid input, please try again"

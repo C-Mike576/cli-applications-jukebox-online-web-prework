@@ -25,7 +25,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
-  binding.pry
+  #binding.pry
   if songs.include?(input)
     puts "Playing #{input}"
   elsif  songs.include?(songs[input.to_i-1]) unless input.to_i-1 == -1

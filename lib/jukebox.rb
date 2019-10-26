@@ -26,7 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   binding.pry
-  if songs.include?(input || songs[input.to_i - 1])
+  if songs.include? input || songs[input.to_i-1]
     puts "Playing "
   end
 end

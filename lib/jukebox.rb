@@ -35,7 +35,7 @@ def play(songs)
   else
     puts "Invalid input, please try again"
   end
-  run(songs)
+  play(songs)
 end
 
 

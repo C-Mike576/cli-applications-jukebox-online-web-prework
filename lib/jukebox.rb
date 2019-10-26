@@ -28,6 +28,7 @@ def play(songs)
   binding.pry
   if songs.include?(input || songs[input.to_i - 1])
     puts "Playing "
+  end
 end
 
 
